@@ -21,29 +21,29 @@ Tips:
 
 - change connection settings
 
-    By default, mysqlrun try to connect to localhost as root. If you want to
-    change the connection settings, edit following code and put in your vimrc.
+    By default, mysqlrun try to connect to localhost as root. If you want to change
+    the connection settings, edit following code and put in your vimrc.
 
-    let g:mysqlrun_current_user = 'root'
-    let g:mysqlrun_current_host = 'localhost'
-    let g:mysqlrun_current_port = '3316'
-    let g:mysqlrun_current_password = ''
+        let g:mysqlrun_current_user = 'root'
+        let g:mysqlrun_current_host = 'localhost'
+        let g:mysqlrun_current_port = '3316'
+        let g:mysqlrun_current_password = ''
 
 - set default database
 
-    let g:mysqlrun_current_db = 'put your database name'
+        let g:mysqlrun_current_db = 'put your database name'
 
 - change the policy of the password requirement
 
-    let g:mysqlrun_require_password = 0
+        let g:mysqlrun_require_password = 0
 
 - change the path of the mysql command
 
-    let g:mysqlrun_bin = '/path/to/mysql'
+        let g:mysqlrun_bin = '/path/to/mysql'
 
 - others
 
-    let g:mysqlrun_bufhidden = ''
+        let g:mysqlrun_bufhidden = ''
 
 Requirements:
 --------
