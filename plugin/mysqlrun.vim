@@ -27,7 +27,7 @@
 "=============================================================================
 
 
-if &cp || (exists('s:loaded_mysqlrun_vim') && g:loaded_mysqlrun_vim)
+if &cp || (exists('s:loaded_mysqlrun_vim') && s:loaded_mysqlrun_vim)
     finish
 endif
 let s:loaded_mysqlrun_vim = 1
