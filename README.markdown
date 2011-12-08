@@ -3,7 +3,7 @@ mysqlrun.vim
 
 Run quickly your editing buffer as a SQL script in a mysql client.
 
-For the latest version please see https://github.com/potix2/mysqlrun-vim.
+For the latest version please see https://github.com/potix2/vim-mysqlrun.
 
 Usage:
 ------
